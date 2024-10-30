@@ -1,25 +1,26 @@
 <?php
 echo 'hellp php!';
+echo "\n";
 // 問1
 $a = 3;
 $b = 7;
 echo $a + $b;
-
+echo "\n";
 // 問2
 $array_month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 echo $array_month[7];
-
+echo "\n";
 // 問3
-$hello = "Hello,";
+$hello = "Hello, ";
 $name = "miwa";
 $world = "'s World";
 echo $hello . $name . $world;
-
+echo "\n";
 // 問4
 $tech_boost = "tech ";
-$tech_boost = "boost";
-echo "tech_boost";
-
+$tech_boost .= "boost";
+echo $tech_boost;
+echo "\n";
 // 問5
 $_2018_calendar = [
     "January" => "1月",
@@ -36,4 +37,4 @@ $_2018_calendar = [
     "December" => "12月"
 ];
 echo $_2018_calendar["December"];
-
+echo "\n";
